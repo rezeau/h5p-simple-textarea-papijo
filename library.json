@@ -1,0 +1,31 @@
+{
+  "title": "Simple Textarea Papi Jo",
+  "description": "A simple library that displays textarea with no frills.",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 1,
+  "runnable": 1,
+  "machineName": "H5P.SimpleTextareaPapiJo",
+  "author": "Papi Jo",
+  "preloadedJs": [
+    {
+      "path": "text.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "text.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.JoubelUI",
+      "majorVersion": 1,
+      "minorVersion": 3
+    }
+  ],
+  "metadataSettings": {
+    "disable": 1,
+    "disableExtraTitleField": 1
+  }
+}

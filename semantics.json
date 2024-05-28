@@ -1,0 +1,9 @@
+[
+  {
+    "label": "Text",
+    "importance": "high",
+    "name": "text",
+    "type": "text",
+    "widget": "textarea"
+  }
+]

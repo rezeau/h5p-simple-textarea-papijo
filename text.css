@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300&display=swap');
+.h5p-textarea-pj {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: Sans-Serif;
+  //margin-top: 1em;
+  //margin-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.h5p-textarea-pj .marker {
+  color: black;
+}
+
+.h5p-textarea-pj h1,
+.h5p-textarea-pj h2,
+.h5p-textarea-pj h3{
+  line-height: initial;
+}
+
+.h5p-textarea-pj table,
+.h5p-textarea-pj td {
+  background: #ebebeb54;
+}
+
+.h5p-textarea-pj td {
+  vertical-align: top;
+}
+
+.h5p-textarea-pj .joubel-tip-container:hover::before {
+  display: none;
+}
+
+.h5p-textarea-pj .joubel-tip-container {
+  z-index: 4;
+  font-size: 0.9em;
+  cursor: help;
+}
+
+.h5p-textarea-pj [class^="joubel-icon-"] {
+  line-height: 0em;
+  height:25px;
+}
+
+.h5p-textarea-pj .text-with-tip-underline {
+  text-decoration-line: underline;
+}
